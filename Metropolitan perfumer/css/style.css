@@ -163,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     color: #111111;
     padding-left: 19px;
+    width: 185px;
 }
 
 .search__form::placeholder {
@@ -170,6 +171,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-size: 10px;
     color: #716F6F;
+}
+
+.search__img {
+    background: transparent;
+    border: 0;
 }
 
 .search__img-item {
@@ -186,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .search__img-link {
     cursor: pointer;
-    padding-right: 19px;
+    margin-right: 19px;
     padding-top: 4px;
 }
 
@@ -333,7 +339,6 @@ h1, h2, h3, h4, h5, h6 {
     top: 41%;
     right: 11%;
     content: "";
-    z-index: 2;
 }
 
 /* Info Settings End */
@@ -1074,7 +1079,7 @@ h1, h2, h3, h4, h5, h6 {
 .modal__content {
     background: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(17, 17, 17, 0.15);
-    margin: 15% auto;
+    margin: 6% auto;
     padding: 0px 20px;
     border: 1px solid #888;
     width: 225px;
@@ -1211,6 +1216,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 260px;
     width: 200px;
     padding: 0;
+    margin: 15% auto;
 }
 
 .account__menu-item {
@@ -1256,6 +1262,90 @@ h1, h2, h3, h4, h5, h6 {
 
 .account__menu {
     padding-top: 30px;
+}
+
+.search {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(17, 17, 17, 0.15);
+    margin: 5% auto;
+    padding: 0px 50px;
+    border: 1px solid #888;
+    width: 1400px;
+    height: 500px;
+}
+
+.search {
+    border-top: 3px solid #C20001;
+}
+
+.search__modal-text {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.search__modal-tittle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #111111;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.search__modal-links {
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #C20001;
+}
+
+.search__modal-wrap {
+    display: flex;
+}
+
+.search__modal-btn {
+    margin-left: 3px;
+    background: transparent;
+    border: 0;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.search__modal-sale {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #C20001;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.search__modal-link {
+    cursor: pointer;
+}
+
+.close__thirth {
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.content__collapsible {
+    max-height: 0;
+    padding: 0 18px;
+    overflow: hidden;
+    transition: 0.2s;
+    background: white;
 }
 
 /* Modal Settings End */
