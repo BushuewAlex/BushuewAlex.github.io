@@ -75,6 +75,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.header__position-text:hover {
+    transition: all 0.3s ease;
 }
 
 .header__tel-text {
@@ -1093,11 +1101,34 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 30px;
     color: #716F6F;
     text-decoration: none;
+    
+    position: absolute;
+    padding-bottom: 10px;
+    z-index: 1;
+    padding-left: 35px;
 }
 
 .modal__wrapper {
     width: 180px;
     margin: 0 auto;
+}
+
+.modal__wrap {
+    position: absolute;
+    margin-top: 10px;
+    background: white;
+    width: 225px;
+    height: 360px;
+    z-index: 2;
+    margin-left: -20px;
+    text-align: center;
+    
+    display: none;
+}
+
+.header__position-text-wrap:hover .modal__wrap {
+    display: block;
+    position: fixed;
 }
 
 .modal__content-tittle {
@@ -1113,6 +1144,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .modal__content-img {
     padding-right: 19px;
+    padding-left: 20px;
+    padding-bottom: 11px;
 }
 
 .close {
